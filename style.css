@@ -1,0 +1,196 @@
+/********** Resets **********/
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/********** Base Styles **********/
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Lato, sans-serif;
+	font-size: 1.6em;
+}
+
+h1, h2, h3 {
+	padding: 1em 0 1em;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2.6em;
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+.row{
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/********** Header Styles ***********/
+
+#header-wrap{
+	background: rgba(26, 26, 255,0.55);
+	border-top: 5px solid #4C8158;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:hover {
+	background: #e6f0ff;
+}
+
+
+/********** Navigation Styles **********/
+
+#main-nav {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	-webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+#main-nav li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+    display: inline-block;
+}
+
+/********** Main Content Styles **********/
+
+.page-title-wrap {
+	background: rgba(179, 179, 255,0.85)
+}
+
+#page-title {
+	text-align: center;
+	padding: 5%;
+	margin: 0;
+	color: #0000cc;
+	font-family: Raleway;
+    font-weight: 300;
+}
+
+#main-wrap{
+	min-height: 100vh;
+	padding: 0 0 5%;
+}
+
+#content{
+	margin-top: 5%;
+	padding: 2%;
+	background: rgba(255,255,255,.6);
+}
+
+/********** Profile Sidebar **********/
+
+#profile-sidebar {
+	max-width: 325px;
+	width: 95%;
+	margin: 0 auto;
+	background: rgba(153, 179, 255,0.8);
+	border: 2px solid #0000cc;
+	color: #1F3424;
+	font-family: Roboto, sans-serif;
+}
+
+#profile-sidebar .portrait-wrap {
+	padding: 2% 8%;
+	background: #3366ff;
+}
+
+#profile-sidebar img {
+	border: 2px dotted #6AB47B;
+	width: 100%;
+	margin: 15px 0 15px;
+	text-align: center;
+	display: block;
+	border-radius: 200%;
+	box-shadow: 0px 1px 2px 2px rgba(0,0,0,.6);
+}
+
+#profile-sidebar h2 {
+	text-align: center;
+	font-size: 2em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #003399; 
+}
+
+#profile-sidebar h3 {
+	text-align: center;
+	color: #4C8158;
+	font-weight: 200;
+}
+
+#profile-sidebar p {
+	padding: 0 1em 1em;
+}
+
+.name-wrap {
+	background: #fff;
+}
+#last-name {
+	font-weight: normal;
+}
+
+
+
+/********** Footer Styles **********/
+#footer-wrap {
+	background: rgba(26, 26, 255,0.55);
+	text-align: center;
+	padding: 20px 0 20px;  
+}
